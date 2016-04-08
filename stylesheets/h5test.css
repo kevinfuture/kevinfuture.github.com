@@ -1,10 +1,16 @@
 *{
-	margin: 0;
-	border: 0;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-size: 1.5625vw;
+	font-family: "Microsoft YaHei";
 }
 html,body{
-
+	height: 100%;
+	overflow: :hidden;
 }
-.test{
-	background: red;
+.question{
+	background: url("../img/shuimo.jpg") no-repeat center center;
+	height: 100%;
+	background-size: 100%;
 }
