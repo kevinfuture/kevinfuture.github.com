@@ -33,6 +33,48 @@ html,body{
 	height: 100%;
 	background-size: 100%;
 }
+.tag{
+	background: url("../img/use/tag.png") no-repeat center center;
+	-webkit-border-radius:50%;
+	   -mos-border-radius:50%;
+			border-radius:50%;
+	left: 5vw;
+	top: 29vh;
+	position: absolute;
+	height: 14.5%;
+	width: 14.5%;
+	background-size: 100%;
+	-webkit-animation:taganimation 5s;
+	   -moz-animation:taganimation 5s;
+			animation:taganimation 5s;
+}
+@-webkit-keyframes taganimation{
+	0%{
+		opacity:0;
+		transform: scale(.8,.8);
+	}
+	100%{
+		opacity:1;
+	}
+}
+@-moz-keyframes taganimation{
+	0%{
+		opacity:0;
+		transform: scale(.8,.8);
+	}
+	100%{
+		opacity:1;
+	}
+}
+@keyframes taganimation{
+	0%{
+		opacity:0;
+		transform: scale(.8,.8);
+	}
+	100%{
+		opacity:1;
+	}
+}
 .img2{
 	display: none;
 	background: url("../img/use/jiuwei.jpeg") no-repeat center center;
