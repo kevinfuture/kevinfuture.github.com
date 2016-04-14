@@ -9,8 +9,32 @@ html,body{
 	height: 100%;
 	overflow: :hidden;
 }
-.question{
-	background: url("../img/shuimo.jpg") no-repeat center center;
+.img1{
+	display: none;
+	background: url("../img/use/naruto1.jpg") no-repeat center center;
+	height: 100%;
+	background-size: 100%;
+}
+.img2{
+	display: none;
+	background: url("../img/use/jiuwei.jpeg") no-repeat center center;
+	height: 100%;
+	background-size: 100%;
+}
+.img3{
+	display: none;
+	background: url("../img/use/xielunyan.png") no-repeat center center;
+	height: 100%;
+	background-size: 100%;
+}
+.img4{
+	display: none;
+	background: url("../img/use/naruto2.jpg") no-repeat center center;
+	height: 100%;
+	background-size: 100%;
+}
+.thanks{
+	background: url("../img/use/happy birthday.gif") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
 }
