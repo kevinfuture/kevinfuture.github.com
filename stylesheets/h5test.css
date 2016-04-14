@@ -11,10 +11,10 @@ html,body{
 }
 .music{
 	position: fixed;
-	top:4vh;
+	top:5vh;
 	right:5vw;
 	z-index: 5;
-	width: 7vw;
+	width: 7.11vw;
 	height: 4vh;
 	border: 4px solid #ef1639;
 	-webkit-border-radius:50%;
@@ -23,7 +23,7 @@ html,body{
 	background: #fff;
 }
 .music >img{
-	width: 7vw;
+	width: 7.11vw;
 	height: 4vh;
 	border-radius:50%;
 	overflow: hidden;
