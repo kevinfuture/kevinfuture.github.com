@@ -51,10 +51,12 @@ html,body{
 @-webkit-keyframes taganimation{
 	0%{
 		opacity:0;
+		rotate(0deg);
 		transform: scale(.8,.8);
 	}
 	100%{
 		opacity:1;
+		rotate(360deg);
 	}
 }
 @-moz-keyframes taganimation{
