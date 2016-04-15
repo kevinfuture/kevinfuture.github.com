@@ -23,6 +23,7 @@ html,body{
 	background: #fff;
 }
 .music >img{
+	position: fixed;
 	width: 7.11vw;
 	height: 4vh;
 	border-radius:50%;
