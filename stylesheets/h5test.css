@@ -16,7 +16,7 @@ html,body{
 	z-index: 5;
 	width: 7.11vw;
 	height: 4vh;
-	border: 3px solid #ef1639;
+	border: 2px solid #ef1639;
 	-webkit-border-radius:50%;
 	   -moz-border-radius:50%;
 	    -ms-border-radius:50%;
@@ -27,9 +27,9 @@ html,body{
 	width: 100%;
 	height: 100%;
 	border-radius:50%;
-	overflow: hidden;
 }
 .img1{
+	display: none;
 	background: url("../img/use/naruto1.jpg") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
@@ -67,7 +67,7 @@ html,body{
 	   -mos-border-radius:50%;
 			border-radius:50%;
 	left: 5vw;
-	top: 29vh;
+	top: 28.5vh;
 	position: absolute;
 	height: 14.5%;
 	width: 14.5%;
@@ -170,17 +170,62 @@ html,body{
 	height: 100%;
 	background-size: 100%;
 }
+.backRotate{
+	background: url("../img/use/luoxuan-big.png") no-repeat center center;
+	-webkit-border-radius:50%;
+	   -mos-border-radius:50%;
+			border-radius:50%;
+	left: 16vw;
+	top: 54.5vh;
+	position: absolute;
+	height: 13%;
+	width: 13%;
+	background-size: 100%;
+	-webkit-animation:taganimation 8s linear;
+	   -moz-animation:taganimation 8s linear;
+	    -ms-animation:taganimation 8s linear;
+			animation:taganimation 8s linear;
+	-webkit-animation:img1animation 8s linear;
+	   -moz-animation:img1animation 8s linear;
+	    -ms-animation:img1animation 8s linear;
+			animation:img1animation 8s linear;
+}
 .img3{
-	display: none;
-	background: url("../img/use/xielunyan.png") no-repeat center center;
+		display: none;
+	background: url("../img/use/eyebackgroud.png") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
 }
+.eye{
+	background: url("../img/use/eye.png") no-repeat center center;
+	top:28vh;
+	left:31.5vw;
+	width: 43%;
+	height: 43%;
+	background-size: 100%;
+	position: absolute;
+	-webkit-animation:tagrotate .001s linear infinite;
+	   -moz-animation:tagrotate .001s linear infinite;
+	    -ms-animation:tagrotate .001s linear infinite;
+			animation:tagrotate .001s linear infinite;
+}
 .img4{
-	display: none;
 	background: url("../img/use/naruto2.jpg") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
+}
+.rasengan{
+	background: url("../img/use/rasengan.png") no-repeat center center;
+	top:55vh;
+	left: 20vw;
+	width: 50%;
+	height:50%;
+	position: absolute;
+	background-size: 100%;
+	-webkit-animation:tagrotate .0001s linear infinite;
+	   -moz-animation:tagrotate .0001s linear infinite;
+	    -ms-animation:tagrotate .0001s linear infinite;
+			animation:tagrotate .0001s linear infinite;
 }
 .thanks{
 	display: none;
