@@ -7,7 +7,7 @@
 }
 html,body{
 	height: 100%;
-	overflow: :hidden;
+	overflow: hidden;
 }
 .music{
 	position: fixed;
@@ -210,7 +210,7 @@ html,body{
 			animation:tagrotate .001s linear infinite;
 }
 .img4{
-	background: url("../img/use/naruto2.jpg") no-repeat center center;
+	background: url("../img/use/naruto2.jpg") no-repeat center center;	
 	height: 100%;
 	background-size: 100%;
 }
@@ -222,10 +222,10 @@ html,body{
 	height:50%;
 	position: absolute;
 	background-size: 100%;
-	-webkit-animation:tagrotate .0001s linear infinite;
-	   -moz-animation:tagrotate .0001s linear infinite;
-	    -ms-animation:tagrotate .0001s linear infinite;
-			animation:tagrotate .0001s linear infinite;
+	-webkit-animation:tagrotate .00001s linear infinite;
+	   -moz-animation:tagrotate .00001s linear infinite;
+	    -ms-animation:tagrotate .00001s linear infinite;
+			animation:tagrotate .00001s linear infinite;
 }
 .thanks{
 	display: none;
