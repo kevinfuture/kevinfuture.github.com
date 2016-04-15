@@ -16,7 +16,7 @@ html,body{
 	z-index: 5;
 	width: 7.11vw;
 	height: 4vh;
-	border: 4px solid #ef1639;
+	border: 3px solid #ef1639;
 	-webkit-border-radius:50%;
 	   -mos-border-radius:50%;
 			border-radius:50%;
@@ -32,6 +32,33 @@ html,body{
 	background: url("../img/use/naruto1.jpg") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
+	-webkit-animation:img1animation 3s linear;
+	   -moz-animation:img1animation 3s linear;
+			animation:img1animation 3s linear;
+}
+@-webkit-keyframes img1animation{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 100:;
+	}
+}
+@-moz-keyframes img1animation{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 100:;
+	}
+}
+@keyframes img1animation{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 100:;
+	}
 }
 .tag{
 	background: url("../img/use/tag.png") no-repeat center center;
@@ -44,25 +71,27 @@ html,body{
 	height: 14.5%;
 	width: 14.5%;
 	background-size: 100%;
-	-webkit-animation:taganimation 5s;
-	   -moz-animation:taganimation 5s;
-			animation:taganimation 5s;
+	-webkit-animation:taganimation 5s linear;
+	   -moz-animation:taganimation 5s linear;
+			animation:taganimation 5s linear;
 }
 @-webkit-keyframes taganimation{
 	0%{
 		opacity:0;
-		rotate(0deg);
-		transform: scale(.8,.8);
+		-webkit-transform: scale(.8,.8);
+		   -moz-transform: scale(.8,.8);
+		        transform: scale(.8,.8);
 	}
 	100%{
 		opacity:1;
-		rotate(360deg);
 	}
 }
 @-moz-keyframes taganimation{
 	0%{
 		opacity:0;
-		transform: scale(.8,.8);
+		-webkit-transform: scale(.8,.8) ;
+		   -moz-transform: scale(.8,.8) ;
+		        transform: scale(.8,.8) ;
 	}
 	100%{
 		opacity:1;
@@ -71,11 +100,40 @@ html,body{
 @keyframes taganimation{
 	0%{
 		opacity:0;
-		transform: scale(.8,.8);
+		-webkit-transform: scale(.8,.8);
+		   -moz-transform: scale(.8,.8);
+		        transform: scale(.8,.8);
 	}
 	100%{
 		opacity:1;
 	}
+}
+.rotation{
+	background: url("../img/use/tag.png") no-repeat center center;
+	-webkit-border-radius:50%;
+	   -mos-border-radius:50%;
+			border-radius:50%;
+	left: 5vw;
+	top: 29vh;
+	position: absolute;
+	height: 14.5%;
+	width: 14.5%;
+	background-size: 100%;
+	-webkit-animation:tagrotate 5s linear infinite;
+	   -moz-animation:tagrotate 5s linear infinite;
+			animation:tagrotate 5s linear infinite;
+}
+@-webkit-keyframes tagrotate{
+	from{-webkit-transform:rotateY(0deg)}
+	to{-webkit-transform:rotateY(360deg);}
+}
+@-moz-keyframes tagrotate{
+	from{-moz-transform:rotateY(0deg)}
+	to{-moz-transform:rotateY(360deg);}
+}
+@keyframes tagrotate{
+	from{transform:rotateY(0deg)}
+	to{transform:rotateY(360deg);}
 }
 .img2{
 	display: none;
