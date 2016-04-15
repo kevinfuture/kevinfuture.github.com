@@ -142,26 +142,26 @@ html,body{
 			animation:tagrotate 5s linear infinite;
 }
 @-webkit-keyframes tagrotate{
-	from{-webkit-transform:rotate(0deg) rotateX(0deg) rotateY(0deg)}
-	to{-webkit-transform:rotate(360deg) rotateX(360deg) rotateY(360deg);}
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
 }
 @-moz-keyframes tagrotate{
-	from{-moz-transform:rotate(0deg) rotateX(0deg) rotateY(0deg)}
-	to{-moz-transform:rotate(360deg) rotateX(360deg) rotateY(360deg);}
+	from{-moz-transform:rotate(0deg)}
+	to{-moz-transform:rotate(360deg)}
 }
 @-ms-keyframes tagrotate{
 	from{
-		-ms-transform:rotate(0deg) rotateX(0deg) rotateY(0deg)
+		-ms-transform:rotate(0deg)
 		-ms-transform-origin:0%;
 	}
 	to{
-		-ms-transform:rotate(360deg) rotateX(360deg) rotateY(360deg);
+		-ms-transform:rotate(360deg)deg);
 		-ms-transform-origin:100%;
 	}
 }
 @keyframes tagrotate{
-	from{transform:rotate(0deg) rotateX(0deg) rotateY(0deg)}
-	to{transform:rotate(360deg) rotateX(360deg) rotateY(360deg);}
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
 }
 .img2{
 	display: none;
