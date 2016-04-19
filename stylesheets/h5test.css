@@ -29,7 +29,6 @@ html,body{
 	border-radius:50%;
 }
 .img1{
-	display: none;
 	background: url("../img/use/naruto1.jpg") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
@@ -191,7 +190,7 @@ html,body{
 			animation:img1animation 8s linear;
 }
 .img3{
-		display: none;
+	display: none;
 	background: url("../img/use/eyebackgroud.png") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
@@ -210,6 +209,7 @@ html,body{
 			animation:tagrotate .001s linear infinite;
 }
 .img4{
+	display: none;
 	background: url("../img/use/naruto2.jpg") no-repeat center center;	
 	height: 100%;
 	background-size: 100%;
@@ -232,4 +232,17 @@ html,body{
 	background: url("../img/use/happy birthday.gif") no-repeat center center;
 	height: 100%;
 	background-size: 100%;
+}
+.fadeIn{
+	-webkit-transform:translate(0,-100%);
+	   -moz-transform:translate(0,-100%);
+	    -ms-transform:translate(0,-100%);
+			transform:translate(0,-100%);
+}
+.fadeOut{
+	opacity: .3;
+	-webkit-transform:translate(0,-100%);
+	   -moz-transform:translate(0,-100%);
+	    -ms-transform:translate(0,-100%);
+			transform:translate(0,-100%);
 }
