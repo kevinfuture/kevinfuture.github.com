@@ -234,15 +234,41 @@ html,body{
 	background-size: 100%;
 }
 .fadeIn{
+	opacity: 1;
+	-webkit-transition:1.2s;
+	   -moz-transition:1.2s;
+	    -ms-transition:1.2s;
+			transition:1.2s;
+	-webkit-transform:translate(0,0%);
+	   -moz-transform:translate(0,0%);
+	    -ms-transform:translate(0,0%);
+			transform:translate(0,0%);
+}
+.fadeMiddle{
+	-webkit-transform:translate(0,100%);
+	   -moz-transform:translate(0,100%);
+	    -ms-transform:translate(0,100%);
+			transform:translate(0,100%);
+}
+.fadeOut{
+	opacity: .3;
+	-webkit-transition:2s;
+	   -moz-transition:2s;
+	    -ms-transition:2s;
+			transition:2s;
 	-webkit-transform:translate(0,-100%);
 	   -moz-transform:translate(0,-100%);
 	    -ms-transform:translate(0,-100%);
 			transform:translate(0,-100%);
 }
-.fadeOut{
-	opacity: .3;
-	-webkit-transform:translate(0,-100%);
-	   -moz-transform:translate(0,-100%);
-	    -ms-transform:translate(0,-100%);
-			transform:translate(0,-100%);
+.congratulations{
+	left: 30vw;
+	top: 75vh;
+	position: absolute;
+	font-family: "SimSun";
+	font-size: 50px;
+	width: 50%;
+	border: 4px;
+	height: 30%;
+	color: #fff;
 }
